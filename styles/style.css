@@ -120,7 +120,7 @@ main{
 .vdo-title{
     text-align: center;
     color: #0B0223;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 .funny{
@@ -279,13 +279,32 @@ main{
         text-align: left;
     }
     main{
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .videos{
         flex-direction: column;
         justify-content: space-around;
+        
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .parent .image-55{
+        width: 50%;
+    }
+    .parent .image-66{
+        width: 25%;
     }
 
+    .nine{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows: auto;
+       }
+
+       .footer-p{
+        flex-direction: column;
+       }
     
 }
