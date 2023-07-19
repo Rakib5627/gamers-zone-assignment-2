@@ -258,7 +258,7 @@ main{
   }
 
 
- @media screen and (max-width:576px) {
+ @media screen and (max-width:476px) {
 
     .navbar{
         flex-direction: column;
@@ -307,4 +307,22 @@ main{
         flex-direction: column;
        }
     
+}
+
+@media screen and (min-width:321px) and (max-width:768px){
+
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 1rem;
+    }
+    .nine{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        grid-template-rows: auto;
+       }
+
+       .videos{
+        flex-direction: column;
+        justify-content: space-around;
+
 }
