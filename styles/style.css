@@ -1,0 +1,52 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header styles */
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+/* nav styles */
+.navbar{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.title-text{
+    color: #0B0223;
+    margin-left: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-items {
+    display: flex;
+}
+.nav-text{
+    font-size: 1.12rem;
+    margin-left: 1.5rem;
+    color: #3C354F;
+}
+.youtube-logo{
+    color: red;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .navbar{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .nav-items {
+        flex-direction: column;
+    }
+    
+}
